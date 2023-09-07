@@ -2,6 +2,18 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Tilt+Prism&display=swap');
 
 
+
+
+/* Header Nav Bar start */
+
+
+
+
+
+
+/* Header Nav Bar End */
+
+
   /* common style */
 body{
     font-family: 'Poppins', sans-serif;
@@ -47,6 +59,7 @@ hr{
     color: #562EFF;
     font-size: 24px;
     margin-top: 3px;
+    
     
 }
 .player-name{
@@ -138,6 +151,32 @@ courses-styles
 }
 .course-duration{
     margin-right: 30px;
+}
+.course-banner:hover{
+    transform: scale(1.1);
+    
+}
+.course-banner{
+    transition: 1.5s;
+}
+.course-title:hover{
+   color: rgb(255, 0, 0);
+   transform: scale(1);
+   
+   cursor: pointer;
+}
+.course-title{
+    transition: 0.5s;
+}
+.section-tittle:hover{
+  color: coral;
+  transform: translate(20px);
+  font-size: 20px;
+  cursor: pointer;
+ 
+}
+.section-tittle{
+    transition: 1s;
 }
 /*-------------------------------
 Media Quaries
